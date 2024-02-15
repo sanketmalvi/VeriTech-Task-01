@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.team-section{
+    width:100%;
+}
+.team-section .top{
+    width: 50%;
+    margin: auto;
+    padding-top: 24px;
+    margin-top: 48px;
+
+}
+
+.team-section .top h1{
+    width: 38%;
+    margin: auto;
+    margin-bottom: 24px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    /* background-color: rgba(149, 45, 247, 0.704); */
+    background-image: linear-gradient(to bottom right, #ff002a, #a408ed);
+}
+
+.team-section .top p{
+    font-size: 16px;
+    text-align: -webkit-center;
+    font-family: sans-serif;
+    width: 100%;
+    margin: auto;
+    margin-top: 36px;
+}
+.team-section .top hr{
+    width: 40%;
+    margin: auto;
+    margin-top: 34px;
+    color: rgb(194, 23, 247);
+    /* border-style: dashed; */
+}
+
+.team-section .container{
+    width: 80%;
+    margin:auto;
+}
+.team-section .container .row{
+    width: 40%;
+    margin:auto;
+}
+.team-section .container .row .title{
+    text-align: center;
+    margin-top: 50px;
+}
+.team-section .container .row h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 8px;
+    margin: 30px 0px;
+    padding: 6px 0px;
+    background: #f0f0f08d;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+.team-section .container .row h3{
+    
+    font-size: 22px;
+    padding: 6px 0px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(149, 45, 247, 0.704);
+}
+
+.team-section .container .team-card{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+
+
+.team-section .container .team-card .card{
+    height: 100%;
+    margin: auto;
+    width: 80%;
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.team-section .container .team-card .card .image-section{
+    line-height: 110px;
+}
+
+.team-section .container .team-card .card .image-section img{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+
+.team-section .container .team-card .card .content{
+    text-align: center;
+    font-family: sans-serif;
+}
+.team-section .container .team-card .card .content h4{
+    font-size: 20px;
+    margin-bottom: 6px;
+    letter-spacing: 1.5px;
+    color: #639ab8;
+}
+
+@media screen and (max-width: 900px) {
+    .team-section .container .team-card{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width: 834px){
+    .team-section .top{
+    width: 100%;
+    margin: auto;
+    padding-top: 24px;
+    margin-top: 48px;
+}
+.team-section .container .row{
+    width: 52%;
+    margin:auto;
+}
+}
+
+@media screen and (max-width: 640px) {
+    .team-section .container .team-card{
+        grid-template-columns: auto;
+    }
+
+    .team-section .top{
+        width: 85%;
+        margin: auto;
+        padding-top: 24px;
+        margin-top: 48px;
+    }
+
+    .team-section .top h1{
+    width: 55%;
+    margin: auto;
+    margin-bottom: 24px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    /* background-color: rgba(149, 45, 247, 0.704); */
+    background-image: linear-gradient(to bottom right, #ff002a, #a408ed);
+}
+
+.team-section .container .row h3{
+    
+    font-size: 16px;
+    padding: 6px 0px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(149, 45, 247, 0.704);
+}
+}
+
+@media screen and (max-width: 1344px) {
+    .team-section .top h1{
+    width: 62%;
+    margin: auto;
+    margin-bottom: 24px;
+    padding: 2px;
+    text-align: center;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    /* background-color: rgba(149, 45, 247, 0.704); */
+    background-image: linear-gradient(to bottom right, #ff002a, #a408ed);
+}
+}
+
+
+
+
